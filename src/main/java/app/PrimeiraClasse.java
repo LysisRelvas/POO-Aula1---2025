@@ -16,6 +16,13 @@ public class PrimeiroAluno {
       System.out.println("[A2]");
       System.out.println("nome = " + a2.nome);
       System.out.println("idade = " + a2.idade);
-      
+
+      System.out.println("[CHAMADA DE MÉTODO]");
+      System.out.println("A1 = " + a1.getDados());
+      System.out.println("A2 = " + a2.getDados());
+
+      Aluno a3 = new Aluno("Maria",35);
+      System.out.println("[CHAMADA DE MÉTODO]");
+      System.out.println("A3 = " + a3.getDados()); 
    } 
 }
