@@ -24,5 +24,10 @@ public class PrimeiroAluno {
       Aluno a3 = new Aluno("Maria",35);
       System.out.println("[CHAMADA DE MÉTODO]");
       System.out.println("A3 = " + a3.getDados()); 
+
+      Cliente c1 = new Cliente();
+      c1.setNome("Teste");
+      System.out.println("[CHAMADA DE GET]");
+      System.out.println(c1.getNome());
    } 
 }
